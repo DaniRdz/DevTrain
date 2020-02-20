@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>error</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 </head>
+<style>
+    body{
+        font-family: 'Merriweather', serif;
+        background-color: lightgoldenrodyellow;
+    }
+    .error-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .error-wrapper > .error-heading{
+        margin: 42px;
+    }
+    img{
+        width: 50%;
+    }
+</style>
 <body>
     
-    <h1>Hi Flexbox</h1>
-    <p>some content</p>
+    <div class="error-wrapper">
+        <div class="error-heading">
+            <h2>Yikes... Who knows when that page will be available, would you like to try another?</h2>
+        </div>
+
+        <img src="tbot.png" alt="image">
+    </div>
 </body>
 </html>
